@@ -66,3 +66,13 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train) # normalize
 X_test = sc.fit_transform(X_test) # normalize
 ```
+
+### Imbalanced classification
+
+Use SMOTE
+
+```py
+from imblearn.over_sampling import SMOTE
+sm = SMOTE(k_neighbors=10, random_state=42)
+X, y = sm.fit_resample(X, y)
+```
