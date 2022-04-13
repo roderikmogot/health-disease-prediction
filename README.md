@@ -3,6 +3,10 @@
 Models:
 - RandomForestRegressor
 - Ridge
+- LinearRegression
+- Lasso
+- DecisionTreeRegressor
+- SVR
 
 Metrics:
 - `sklearn.metrics.r2_score`
