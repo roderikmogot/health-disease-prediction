@@ -76,3 +76,7 @@ from imblearn.over_sampling import SMOTE
 sm = SMOTE(k_neighbors=10, random_state=42)
 X, y = sm.fit_resample(X, y)
 ```
+
+### Classification analysis
+
+[https://github.com/dformoso/sklearn-classification](https://github.com/dformoso/sklearn-classification)
